@@ -1,0 +1,10 @@
+{
+    "options": {
+        "work": ["working building a personal blog", "learning Go"],
+        "movement": [
+            "going on a walk",
+            "going on a bike ride",
+            "going on a ruck"
+        ]
+    }
+}
