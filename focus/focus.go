@@ -42,7 +42,7 @@ func main() {
 }
 
 func ReadOptionsAsJSON() Options {
-	contents, err := os.ReadFile("./data/options.json")
+	contents, err := os.ReadFile("./options.json")
 	if err != nil {
 		log.Fatal(err)
 	}
@@ -65,7 +65,7 @@ func WriteResultsAsJSON(result Result) {
 		log.Fatal(err)
 	}
 
-	err = os.WriteFile("./data/results.json", data, 0644)
+	err = os.WriteFile("../public/results.json", data, 0644)
 	if err != nil {
 		log.Fatal(err)
 	}
