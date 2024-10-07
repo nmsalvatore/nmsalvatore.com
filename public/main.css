@@ -23,7 +23,7 @@ body {
     min-height: 100vh;
     min-height: -webkit-fill-available;
     font-family: "Courier New", Courier, monospace;
-    color: #fafafa;
+    color: #eee;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 }
@@ -39,10 +39,10 @@ main p {
 main p mark {
     font-weight: 600;
     background: none;
-    color: #fff;
+    color: inherit;
 }
 
 main p a {
     font-weight: 600;
-    color: #fff;
+    color: inherit;
 }
