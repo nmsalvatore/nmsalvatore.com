@@ -2,8 +2,12 @@ const work = document.getElementById("work");
 const movement = document.getElementById("movement");
 
 (async () => {
-    const data = await fetch("results.json");
-    const results = await data.json();
-    work.innerText = results.work;
-    movement.innerText = results.movement;
+    try {
+        const response = await fetch("results.json");
+        const data = await response.json();
+        work.innerText = data.work;
+        movement.innerText = data.movement;
+    } catch (err) {
+        console.error("Could not fetch data:", err);
+    }
 })();
