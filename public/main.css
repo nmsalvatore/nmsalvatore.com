@@ -33,16 +33,10 @@ main {
 }
 
 main p {
-    margin: var(--space-1) 0;
+    margin-bottom: var(--space-2);
 }
 
 main p mark {
-    font-weight: 600;
     background: none;
-    color: inherit;
-}
-
-main p a {
-    font-weight: 600;
     color: inherit;
 }
