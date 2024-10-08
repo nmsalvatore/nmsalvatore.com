@@ -1,10 +1,6 @@
 {
     "options": {
         "work": ["working on a web scraper", "studying Go"],
-        "movement": [
-            "going on a long walk",
-            "going on a bike ride",
-            "playing disc golf"
-        ]
+        "movement": ["going on a long walk", "going on a bike ride"]
     }
 }
